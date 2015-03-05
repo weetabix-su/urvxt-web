@@ -1,0 +1,29 @@
+{
+  "name": "urvxturabe-io",
+  "description": "twitter_ebooks web deployment and bot database frontend",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "pg": "latest",
+    "bower": "latest",
+    "node-twitter-api": "latest",
+    "body-parser": "latest",
+    "multer": "latest"
+  },
+  "engines": {
+    "node": "0.10.x"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/weetabix-su/urvxturabe-io"
+  },
+  "keywords": [
+    "node",
+    "heroku",
+    "twitter_ebooks"
+  ],
+  "license": "MIT"
+}
